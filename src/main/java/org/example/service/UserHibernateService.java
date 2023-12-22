@@ -26,7 +26,7 @@ public class UserHibernateService {
 
     /**
      * Methode pour créer un user et l'inserer dans la BDD
-     * @param user {User} , prends l'utilisateur créé
+     * @param user {User}, prends l'utilisateur créé
      */
     public void CreerUser(User user){
         session.beginTransaction();
